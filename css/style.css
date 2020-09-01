@@ -7,7 +7,7 @@ body {
 #scene {
   height: 100vh;
   width: 100%;
-  background: url("/images/backgrounds/h_img.jpg") fixed center no-repeat;
+  background: url("../images/backgrounds/h_img.jpg") fixed center no-repeat;
   background-size: cover;
   /* width: 100%;
   width: 100%;
@@ -62,7 +62,7 @@ img {
 }
 .services {
   height: 25em;
-  background: url("/images/backgrounds/s_image.jpg") no-repeat;
+  background: url("../images/backgrounds/s_image.jpg") no-repeat;
   background-origin: top right;
   background-size: cover;
   color: white;
@@ -157,7 +157,7 @@ h2 #c-underline {
 }
 
 #bailey-wonger {
-  background: url("/images/portfolio/work8.jpg") no-repeat;
+  background: url("../images/portfolio/work8.jpg") no-repeat;
   background-size: cover;
   width: 150px;
 }
@@ -186,7 +186,7 @@ h2 #c-underline {
 }
 
 #contacts {
-  background: url("/images/backgrounds/c_image.jpg") left no-repeat;
+  background: url("../images/backgrounds/c_image.jpg") left no-repeat;
   background-size: cover;
   height: 75vh;
   color: white;
