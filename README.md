@@ -8,7 +8,12 @@ hiding and display of contents on clicking.
 
 ## live link
 
+https://sawe-daisy.github.io/delani-studio/
+
 ## Description
+
+toggling between icons and their descriptions.
+inserting images to build a replica of delani studio
 
 ## Screenshot
 

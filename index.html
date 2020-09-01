@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delani Studio</title>
+    <link
+      href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -239,37 +244,53 @@
       </div>
       <div id="contacts">
         <h2 style="font-size: 20px;">CONTACT US</h2>
-
-        <div id="contact_form">
-          <div id="contact-top">
-            <input
-              type="text"
-              name="name"
-              id="uname"
-              placeholder="Name.."
-              required
-            />
-            <input
-              type="email"
-              name="e-mail"
-              id="uemail"
-              placeholder="Email.."
-              required
-            />
+        <form
+          action="https://gmail.us17.list-manage.com/subscribe/post?u=c989039676b69e0bb36b3a38d&amp;id=7d0fcbfa67"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+          <div id="contact_form">
+            <div id="contact-top">
+              <input
+                type="text"
+                name="name"
+                id="uname"
+                placeholder="Name.."
+                required
+              />
+              <input
+                type="email"
+                name="e-mail"
+                id="uemail"
+                placeholder="Email.."
+                required
+              />
+            </div>
+            <div id="contact-bottom">
+              <textarea
+                id="umessage"
+                name="message"
+                rows="4"
+                cols="50"
+                placeholder="Your message here...."
+                required
+              ></textarea>
+            </div>
+            <div id="send-btn">
+              <button
+                type="submit"
+                name="mc-embedded-subscribe-form"
+                onclick="sendMessage()"
+              >
+                Send Message
+              </button>
+            </div>
           </div>
-          <div id="contact-bottom">
-            <textarea
-              id="umessage"
-              rows="4"
-              cols="50"
-              placeholder="Your message here...."
-              required
-            ></textarea>
-          </div>
-          <div id="send-btn">
-            <button onclick="sendMessage()">Send Message</button>
-          </div>
-        </div>
+        </form>
       </div>
       <div id="social-media">
         <a href="#"><img src="images/social_icons/twitter.png" /></a>

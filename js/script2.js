@@ -40,3 +40,13 @@ function sendMessage() {
 
   return (content = ["uName", "uEmail", "uMessage"]);
 }
+function sendMessage(form) {
+  var uName = document.forms["mc-embedded-subscribe-form"]["name"].value;
+  var uEmail = document.forms["mc-embedded-subscribe-form"]["e-mail"].value;
+  var uMessage = document.forms["mc-embedded-subscribe-form"]["message"].value;
+  alert(
+    "hello " +
+      uName +
+      " we have recieved your message, thank you for your response"
+  );
+}
